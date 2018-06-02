@@ -12,6 +12,7 @@ $ ./install.sh
 ### Run samples 
 
 ```sh
+$ source env.sh
 $ cd samples/blue-sample-apps/blue-app-helloworld 
 $ make load
 ```

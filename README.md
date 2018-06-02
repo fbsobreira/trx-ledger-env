@@ -1,1 +1,19 @@
-# trx-ledger-env
+# TRX Ledger Dev Environment - TRON.NETWORK
+
+### Installation
+
+```sh
+$ git clone https://github.com/fbsobreira/trx-ledger-env.git
+$ git submodule init
+$ cd trx-ledger-env
+$ chmod +x install.sh
+$ ./isntall.sh
+```
+### Run samples 
+
+```sh
+$ cd samples/blue-sample-app/blue-app-helloworld 
+$ make load
+```
+
+

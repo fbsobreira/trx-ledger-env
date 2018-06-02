@@ -1,0 +1,6 @@
+[submodule "samples/blue-sample-apps"]
+	path = samples/blue-sample-apps
+	url = https://github.com/LedgerHQ/blue-sample-apps.git
+[submodule "tools/sdk"]
+	path = tools/sdk
+	url = https://github.com/LedgerHQ/nanos-secure-sdk

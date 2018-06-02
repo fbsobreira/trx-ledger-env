@@ -7,7 +7,7 @@ $ git clone https://github.com/fbsobreira/trx-ledger-env.git
 $ git submodule init
 $ cd trx-ledger-env
 $ chmod +x install.sh
-$ ./isntall.sh
+$ ./install.sh
 ```
 ### Run samples 
 

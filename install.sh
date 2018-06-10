@@ -22,8 +22,8 @@ hasPyUSB="$(pip show pyusb | wc -l)"
 if [ $hasLedgerblue -eq 0 ]; then
 sudo pip install ledgerblue
 fi
-if [ $hasLedgerblue -eq 0 ]; then
-sudo pip install hasPyUSB
+if [ $hasPyUSB -eq 0 ]; then
+sudo pip install PyUSB
 fi
 
 # clean downloads

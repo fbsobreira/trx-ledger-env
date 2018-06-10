@@ -15,6 +15,7 @@ tar -xf clang*.xz -C tools/gcc/clang-arm-fropi --strip-components 1
 
 # init SDK and samples from git repo
 git submodule init
+git submodule update --recursive --remote
 
 # check for ledgerblue && pyusb
 hasLedgerblue="$(pip show ledgerblue | wc -l)"
